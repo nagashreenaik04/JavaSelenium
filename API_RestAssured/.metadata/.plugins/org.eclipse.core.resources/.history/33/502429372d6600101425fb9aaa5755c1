@@ -1,0 +1,11 @@
+package api.test;
+
+public class DDTest1 {
+	
+	@Test(priority=1, )
+	public void testPostUser()
+	{
+		
+	}
+
+}

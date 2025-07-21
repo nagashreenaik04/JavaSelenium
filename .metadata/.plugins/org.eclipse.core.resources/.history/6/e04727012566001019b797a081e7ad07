@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <listeners>
+  		<listener class-name="api.utilities.ExtentReportManager"></listener>
+  </listeners>
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="api.test.SuperAdmin.TestLogin"/>
+      <class name="api.test.SuperAdmin.TestProfile"/>
+      <class name="api.test.SuperAdmin.TestDashboard"/>
+      <class name="api.test.SuperAdmin.TestReport"/>
+      <class name="api.test.SuperAdmin.TestDevice"/>
+      <class name="api.test.SuperAdmin.TestUserRole"/>
+      <class name="api.test.SuperAdmin.TestOTC"/>
+      <class name="api.test.SuperAdmin.TestUser"/>
+      <class name="api.test.SuperAdmin.TestNotification"/>
+      <class name="api.test.SuperAdmin.TestWithdraw"/>      
+      <class name="api.test.SuperAdmin.TestReseller"/>
+    </classes>
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

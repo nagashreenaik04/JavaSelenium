@@ -1,0 +1,310 @@
+!SESSION 2025-07-21 17:32:13.413 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-21 17:32:17.305
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-21 17:32:29.997
+!MESSAGE Logback config file: D:\EclipseWorkspace\API_RestAssure\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-21 17:32:40.900
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\LENOVO'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:34:12.521
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:34:12.533
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:35:20.310
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:35:20.325
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-07-21 17:35:50.778
+!MESSAGE Unexpected null value present!
+!STACK 0
+java.lang.IllegalStateException: Unexpected null value present!
+	at org.eclipse.lsp4e.internal.NullSafetyHelper.castNonNull(NullSafetyHelper.java:36)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticTokensClient.requestFullSemanticTokens(SemanticTokensClient.java:45)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.fullReconcile(SemanticHighlightReconcilerStrategy.java:239)
+	at org.eclipse.lsp4e.operations.semanticTokens.SemanticHighlightReconcilerStrategy.initialReconcile(SemanticHighlightReconcilerStrategy.java:258)
+	at org.eclipse.ui.internal.genericeditor.CompositeReconcilerStrategy.initialReconcile(CompositeReconcilerStrategy.java:48)
+	at org.eclipse.jface.text.reconciler.Reconciler.initialProcess(Reconciler.java:223)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:177)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:36:59.668
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:36:59.674
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:37:52.915
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:37:52.923
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:39:38.129
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:39:38.136
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:40:37.956
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:40:37.968
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:40:40.906
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:40:40.912
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:44:24.572
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:44:24.580
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:44:30.077
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:44:30.081
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:44:52.185
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:44:52.189
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:44:55.716
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:44:55.720
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:45:28.029
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:45:28.033
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:45:31.106
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:45:31.125
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:46:00.409
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:46:00.418
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:46:03.393
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:46:03.406
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:46:23.720
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:46:23.726
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:46:27.324
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:46:27.328
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:47:02.787
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:47:02.792
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:47:05.753
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:47:05.756
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:47:31.888
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:47:31.893
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:47:35.059
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:47:35.063
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:47:49.379
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:47:49.387
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:48:35.122
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:48:35.128
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:48:38.413
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:48:38.417
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:49:04.864
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:49:04.868
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:49:07.743
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:49:07.746
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:49:32.541
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:49:32.544
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:49:35.318
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:49:35.322
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:50:13.064
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:50:13.068
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:50:17.099
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:50:17.102
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:50:34.789
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:50:34.794
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:51:23.506
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:51:23.510
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:51:41.956
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:51:41.960
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:53:00.923
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:53:00.928
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:54:05.298
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:54:05.305
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:54:08.751
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:54:08.754
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:57:27.540
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:57:27.544
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2025-07-21 17:57:47.726
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\Install Tools\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar D:\EclipseWorkspace\API_RestAssure\PetStoreAutomationTesting\target\test-classes D:\EclipseWorkspace\API_RestAssure\PetStoreAutomationTesting\target\classes C:\Users\LENOVO\.m2\repository\io\rest-assured\rest-assured\5.5.1\rest-assured-5.5.1.jar C:\Users\LENOVO\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar C:\Users\LENOVO\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\LENOVO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\LENOVO\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar C:\Users\LENOVO\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\LENOVO\.m2\repository\io\rest-assured\xml-path\5.5.1\xml-path-5.5.1.jar C:\Users\LENOVO\.m2\repository\io\rest-assured\json-path\5.5.1\json-path-5.5.1.jar C:\Users\LENOVO\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar C:\Users\LENOVO\.m2\repository\io\rest-assured\rest-assured-common\5.5.1\rest-assured-common-5.5.1.jar C:\Users\LENOVO\.m2\repository\org\json\json\20250107\json-20250107.jar C:\Users\LENOVO\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar C:\Users\LENOVO\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar C:\Users\LENOVO\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar C:\Users\LENOVO\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar C:\Users\LENOVO\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar C:\Users\LENOVO\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar C:\Users\LENOVO\.m2\repository\io\rest-assured\json-schema-validator\5.5.1\json-schema-validator-5.5.1.jar C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar C:\Users\LENOVO\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar C:\Users\LENOVO\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar C:\Users\LENOVO\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar C:\Users\LENOVO\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\LENOVO\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar C:\Users\LENOVO\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar C:\Users\LENOVO\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar C:\Users\LENOVO\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar C:\Users\LENOVO\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar C:\Users\LENOVO\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar C:\Users\LENOVO\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar C:\Users\LENOVO\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar C:\Users\LENOVO\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar C:\Users\LENOVO\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar C:\Users\LENOVO\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar C:\Users\LENOVO\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar C:\Users\LENOVO\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar C:\Users\LENOVO\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar C:\Users\LENOVO\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\LENOVO\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar C:\Users\LENOVO\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar C:\Users\LENOVO\.m2\repository\org\apache\poi\poi-ooxml\5.4.0\poi-ooxml-5.4.0.jar C:\Users\LENOVO\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.0\poi-ooxml-lite-5.4.0.jar C:\Users\LENOVO\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar C:\Users\LENOVO\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar C:\Users\LENOVO\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar C:\Users\LENOVO\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar C:\Users\LENOVO\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.17.1\log4j-slf4j-impl-2.17.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62851 -protocol json -d D:\EclipseWorkspace\API_RestAssure\PetStoreAutomationTesting\test-output C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse--1504186059\testng-customsuite.xml
+java -ea -classpath D:\Install Tools\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar:D:\EclipseWorkspace\API_RestAssure\PetStoreAutomationTesting\target\test-classes:D:\EclipseWorkspace\API_RestAssure\PetStoreAutomationTesting\target\classes:C:\Users\LENOVO\.m2\repository\io\rest-assured\rest-assured\5.5.1\rest-assured-5.5.1.jar:C:\Users\LENOVO\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar:C:\Users\LENOVO\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar:C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\LENOVO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\LENOVO\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\LENOVO\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar:C:\Users\LENOVO\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\LENOVO\.m2\repository\io\rest-assured\xml-path\5.5.1\xml-path-5.5.1.jar:C:\Users\LENOVO\.m2\repository\io\rest-assured\json-path\5.5.1\json-path-5.5.1.jar:C:\Users\LENOVO\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar:C:\Users\LENOVO\.m2\repository\io\rest-assured\rest-assured-common\5.5.1\rest-assured-common-5.5.1.jar:C:\Users\LENOVO\.m2\repository\org\json\json\20250107\json-20250107.jar:C:\Users\LENOVO\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar:C:\Users\LENOVO\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar:C:\Users\LENOVO\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar:C:\Users\LENOVO\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar:C:\Users\LENOVO\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar:C:\Users\LENOVO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar:C:\Users\LENOVO\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar:C:\Users\LENOVO\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar:C:\Users\LENOVO\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar:C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar:C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar:C:\Users\LENOVO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar:C:\Users\LENOVO\.m2\repository\io\rest-assured\json-schema-validator\5.5.1\json-schema-validator-5.5.1.jar:C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar:C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar:C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar:C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar:C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar:C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar:C:\Users\LENOVO\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar:C:\Users\LENOVO\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar:C:\Users\LENOVO\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar:C:\Users\LENOVO\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar:C:\Users\LENOVO\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar:C:\Users\LENOVO\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\LENOVO\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar:C:\Users\LENOVO\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar:C:\Users\LENOVO\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar:C:\Users\LENOVO\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\LENOVO\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar:C:\Users\LENOVO\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar:C:\Users\LENOVO\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar:C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar:C:\Users\LENOVO\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar:C:\Users\LENOVO\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar:C:\Users\LENOVO\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar:C:\Users\LENOVO\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar:C:\Users\LENOVO\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar:C:\Users\LENOVO\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar:C:\Users\LENOVO\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar:C:\Users\LENOVO\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar:C:\Users\LENOVO\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar:C:\Users\LENOVO\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar:C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\LENOVO\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar:C:\Users\LENOVO\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar:C:\Users\LENOVO\.m2\repository\org\apache\poi\poi-ooxml\5.4.0\poi-ooxml-5.4.0.jar:C:\Users\LENOVO\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.0\poi-ooxml-lite-5.4.0.jar:C:\Users\LENOVO\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar:C:\Users\LENOVO\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar:C:\Users\LENOVO\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar:C:\Users\LENOVO\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar:C:\Users\LENOVO\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar:C:\Users\LENOVO\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.17.1\log4j-slf4j-impl-2.17.1.jar org.testng.remote.RemoteTestNG -serport 62851 -protocol json -d D:\EclipseWorkspace\API_RestAssure\PetStoreAutomationTesting\test-output C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse--1504186059\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:58:45.474
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:58:45.478
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:59:30.852
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:59:30.858
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:59:32.013
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 17:59:32.017
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 18:01:54.210
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 18:01:54.217
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 18:04:01.843
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 18:04:01.847
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 18:04:14.754
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 18:04:14.757
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 18:04:21.619
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 18:04:21.623
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 18:04:33.356
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-07-21 18:04:33.359
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

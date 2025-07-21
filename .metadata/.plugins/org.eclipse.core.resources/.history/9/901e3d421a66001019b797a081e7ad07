@@ -1,0 +1,89 @@
+package api.endpoints.ResellerAdmin;
+
+public class RARoutes {
+  public static String resellerAdmin_URL = "http://172.235.29.67:3001/reselleradmin";
+  
+  public static String login_url = String.valueOf(resellerAdmin_URL) + "/CheckLoginCredentials";
+  
+  public static String getClient_url = String.valueOf(resellerAdmin_URL) + "/getAllClients";
+  
+  public static String getAssignedAssociation_url = String.valueOf(resellerAdmin_URL) + "/FetchAssignedAssociation";
+  
+  public static String getChargerDetails_url = String.valueOf(resellerAdmin_URL) + "/FetchChargerDetailsWithSession";
+  
+  public static String addClient_url = String.valueOf(resellerAdmin_URL) + "/addNewClient";
+  
+  public static String updateClient_url = String.valueOf(resellerAdmin_URL) + "/updateClient";
+  
+  public static String deactivateClient_url = String.valueOf(resellerAdmin_URL) + "/DeActivateClient";
+  
+  public static String updateCommission_url = String.valueOf(resellerAdmin_URL) + "updateCommission";
+  
+  public static String getUsers_url = String.valueOf(resellerAdmin_URL) + "/FetchUsers";
+  
+  public static String getSpecificUserRole = String.valueOf(resellerAdmin_URL) + "/FetchSpecificUserRoleForSelection";
+  
+  public static String createUser = String.valueOf(resellerAdmin_URL) + "/CreateUser";
+  
+  public static String updateUser = String.valueOf(resellerAdmin_URL) + "/UpdateUser";
+  
+  public static String deactivateUser = String.valueOf(resellerAdmin_URL) + "/DeActivateUser";
+  
+  public static String getClientForSelection_url = String.valueOf(resellerAdmin_URL) + "/FetchClientForSelection";
+  
+  public static String getAllocatedCharger = String.valueOf(resellerAdmin_URL) + "/FetchAllocatedCharger";
+  
+  public static String getUnallocatedCharger = String.valueOf(resellerAdmin_URL) + "/FetchUnAllocatedCharger";
+  
+  public static String deactiveOrActivateCharger = String.valueOf(resellerAdmin_URL) + "/DeActivateOrActivateCharger";
+  
+  public static String getClientUserForAssign = String.valueOf(resellerAdmin_URL) + "/FetchClientUserToAssginCharger";
+  
+  public static String getUnallocatedChargerForAssign = String.valueOf(resellerAdmin_URL) + "/FetchUnAllocatedChargerToAssgin";
+  
+  public static String assignChargerToClient = String.valueOf(resellerAdmin_URL) + "/AssginChargerToClient";
+  
+  public static String getUserProfile = String.valueOf(resellerAdmin_URL) + "/FetchUserProfile";
+  
+  public static String updateUserProfile = String.valueOf(resellerAdmin_URL) + "/UpdateUserProfile";
+  
+  public static String updateResellerProfile = String.valueOf(resellerAdmin_URL) + "/UpdateResellerProfile";
+  
+  public static String getTotalCharger_url = String.valueOf(resellerAdmin_URL) + "/FetchTotalCharger";
+  
+  public static String getOnlineCharger_url = String.valueOf(resellerAdmin_URL) + "/FetchOnlineCharger";
+  
+  public static String getOfflineCharger_url = String.valueOf(resellerAdmin_URL) + "/FetchOfflineCharger";
+  
+  public static String getFaultsCharger_url = String.valueOf(resellerAdmin_URL) + "/FetchFaultsCharger";
+  
+  public static String getChargerTotalEnergy_url = String.valueOf(resellerAdmin_URL) + "/FetchChargerTotalEnergy";
+  
+  public static String getTotalUsers_url = String.valueOf(resellerAdmin_URL) + "/FetchTotalUsers";
+  
+  public static String getTotalChargersSessions_url = String.valueOf(resellerAdmin_URL) + "/FetchTotalChargersSession";
+  
+  public static String getCommissionAmtReseller_URL = String.valueOf(resellerAdmin_URL) + "/FetchCommissionAmtReseller";
+  
+  public static String saveUserBankDetails_URL = String.valueOf(resellerAdmin_URL) + "/saveUserBankDetails";
+  
+  public static String getUserBankDetails_URL = String.valueOf(resellerAdmin_URL) + "/fetchUserBankDetails";
+  
+  public static String updateUserBankDetails_URL = String.valueOf(resellerAdmin_URL) + "/updateUserBankDetails";
+  
+  public static String applyWithdrawal_URL = String.valueOf(resellerAdmin_URL) + "/ApplyWithdrawal";
+  
+  public static String getPaymentRequest_URL = String.valueOf(resellerAdmin_URL) + "/FetchPaymentRequest";
+  
+  public static String getPaymentNotification_URL = String.valueOf(resellerAdmin_URL) + "/FetchPaymentNotification";
+  
+  public static String markNotificationRead_URL = String.valueOf(resellerAdmin_URL) + "/MarkNotificationRead";
+  
+  public static String getDeviceReport_URL = String.valueOf(resellerAdmin_URL) + "/FetchReportDevice";
+  
+  public static String downloadDeviceReport_URL = String.valueOf(resellerAdmin_URL) + "/DeviceReport";
+  
+  public static String getSpecificChargerRevenue_URL = String.valueOf(resellerAdmin_URL) + "/FetchSpecificChargerRevenue";
+  
+  public static String getChargerListWithAllCostWithRevenue_URL = String.valueOf(resellerAdmin_URL) + "/FetchChargerListWithAllCostWithRevenue";
+}

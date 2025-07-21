@@ -1,0 +1,38 @@
+package api.test.ionHiveApp;
+
+import api.endpoints.ionHiveApp.AuthenticationEndPoints;
+import io.restassured.response.Response;
+import io.restassured.response.ValidatableResponse;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class TestAuthentication {
+  String email_id = "nagashreenaik040@gmail.com";
+  
+  int otp = 750932;
+  
+  public Logger logger;
+  
+  @BeforeClass
+  public void setupData() {
+    this.logger = LogManager.getLogger(getClass());
+  }
+  
+  public void testGenerateOTP() {
+    this.logger.info("***** Generate the OTP *******");
+    Response res = AuthenticationEndPoints.generateOTP(this.email_id);
+    ((ValidatableResponse)res.then()).log().all();
+    Assert.assertEquals(res.getStatusCode(), 200);
+  }
+  
+  @Test(priority = 2)
+  public void testAuthOTP() {
+    this.logger.info("***** Generate the OTP *******");
+    Response res = AuthenticationEndPoints.authOTP(this.email_id, this.otp);
+    ((ValidatableResponse)res.then()).log().all();
+    Assert.assertEquals(res.getStatusCode(), 200);
+  }
+}

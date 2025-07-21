@@ -1,0 +1,33 @@
+package api.test.AssociationAdmin;
+
+import api.endpoints.AssociationAdmin.LoginEndPoints;
+import io.restassured.response.Response;
+import io.restassured.response.ValidatableResponse;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class TestAALogin {
+  public String email = "nagashreenaik040@gmail.com";
+  
+  public int password = 7154;
+  
+  public Logger logger;
+  
+  @BeforeClass
+  public void setupData() {
+    this.logger = LogManager.getLogger(getClass());
+  }
+  
+  @Test(priority = 1)
+  public void testLoginValidCredential() {
+    Response res = LoginEndPoints.checkLoginCredential(this.email, this.password);
+    ((ValidatableResponse)res.then()).log().all();
+    Assert.assertEquals(res.getStatusCode(), 200);
+    String status = res.jsonPath().getString("status");
+    Assert.assertEquals(status, "Success", "Expected status to be 'Success'");
+    this.logger.info("***** Login successful *******");
+  }
+}

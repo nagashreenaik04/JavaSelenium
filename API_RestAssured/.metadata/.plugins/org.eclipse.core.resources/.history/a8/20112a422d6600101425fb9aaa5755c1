@@ -1,0 +1,13 @@
+package api.test;
+
+import org.testng.annotations.Test;
+
+public class DDTest1 {
+	
+	@Test(priority=1, )
+	public void testPostUser()
+	{
+		
+	}
+
+}

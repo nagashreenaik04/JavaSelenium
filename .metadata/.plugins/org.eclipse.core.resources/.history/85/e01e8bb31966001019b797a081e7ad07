@@ -1,0 +1,105 @@
+package api.endpoints.SuperAdmin;
+
+public class Routes {
+  public static String superAdmin_URL = "http://172.235.29.67:3001/superadmin";
+  
+  public static String loginPost_url = String.valueOf(superAdmin_URL) + "/CheckLoginCredentials";
+  
+  public static String userRoleGet_url = String.valueOf(superAdmin_URL) + "/FetchUserRoles";
+  
+  public static String userRoleSpecificGet_url = String.valueOf(superAdmin_URL) + "/FetchSpecificUserRole";
+  
+  public static String userRolePost_url = String.valueOf(superAdmin_URL) + "/CreateUserRole";
+  
+  public static String userRoleUpdate_url = String.valueOf(superAdmin_URL) + "/UpdateUserRole";
+  
+  public static String userRoleActiveDeactive_url = String.valueOf(superAdmin_URL) + "/DeActivateOrActivateUserRole";
+  
+  public static String userGet_url = String.valueOf(superAdmin_URL) + "/FetchUsers";
+  
+  public static String selectUserRole_url = String.valueOf(superAdmin_URL) + "/FetchSpecificUserRoleForSelection";
+  
+  public static String selectReseller_url = String.valueOf(superAdmin_URL) + "/FetchResellerForSelection";
+  
+  public static String createUser_url = String.valueOf(superAdmin_URL) + "/CreateUser";
+  
+  public static String updateUser_url = String.valueOf(superAdmin_URL) + "/UpdateUser";
+  
+  public static String deactiveUser_url = String.valueOf(superAdmin_URL) + "/DeActivateUser";
+  
+  public static String getProfile_url = String.valueOf(superAdmin_URL) + "/FetchUserProfile";
+  
+  public static String updateProfile_url = String.valueOf(superAdmin_URL) + "/UpdateUserProfile";
+  
+  public static String getReseller_url = String.valueOf(superAdmin_URL) + "/FetchResellers";
+  
+  public static String getResellerClient_url = String.valueOf(superAdmin_URL) + "/FetchAssignedClients";
+  
+  public static String getResellerAssignedCharger_url = String.valueOf(superAdmin_URL) + "/FetchChargerDetailsWithSession";
+  
+  public static String createReseller_url = String.valueOf(superAdmin_URL) + "/CreateReseller";
+  
+  public static String updateReseller_url = String.valueOf(superAdmin_URL) + "/UpdateReseller";
+  
+  public static String deactiveOrActivateReseller_url = String.valueOf(superAdmin_URL) + "/DeActivateOrActivateReseller";
+  
+  public static String getOTC_url = String.valueOf(superAdmin_URL) + "/fetchAllOutputType";
+  
+  public static String getSpecificOTC_url = String.valueOf(superAdmin_URL) + "/fetchSpecificOutputType";
+  
+  public static String creatOTC_url = String.valueOf(superAdmin_URL) + "/createOutputType";
+  
+  public static String updatOTC_url = String.valueOf(superAdmin_URL) + "/updateOutputType";
+  
+  public static String deactivateOTC_url = String.valueOf(superAdmin_URL) + "/DeActivateOutputType";
+  
+  public static String getConnectorTypeName_url = String.valueOf(superAdmin_URL) + "/fetchConnectorTypeName";
+  
+  public static String getUnallocatedChargerToAssign_url = String.valueOf(superAdmin_URL) + "/FetchUnAllocatedChargerToAssgin";
+  
+  public static String getResellrToAssign_url = String.valueOf(superAdmin_URL) + "/FetchResellersToAssgin";
+  
+  public static String AssignToReseller_url = String.valueOf(superAdmin_URL) + "/AssginChargerToReseller";
+  
+  public static String getUnallocatedCharger_url = String.valueOf(superAdmin_URL) + "/FetchCharger";
+  
+  public static String createCharger_url = String.valueOf(superAdmin_URL) + "/CreateCharger";
+  
+  public static String createChargerWithExcel_url = String.valueOf(superAdmin_URL) + "/CreateChargerWithExcelFile";
+  
+  public static String updateCharger_url = String.valueOf(superAdmin_URL) + "/UpdateCharger";
+  
+  public static String deactivateOrActivateCharger_url = String.valueOf(superAdmin_URL) + "/DeActivateOrActivateCharger";
+  
+  public static String getAllocatedCharger_url = String.valueOf(superAdmin_URL) + "/FetchAllocatedChargers";
+  
+  public static String getSpecificChargerRevenue = String.valueOf(superAdmin_URL) + "/FetchSpecificChargerRevenue";
+  
+  public static String getChargerListWithAllCostWithRevenue = String.valueOf(superAdmin_URL) + "/FetchChargerListWithAllCostWithRevenue";
+  
+  public static String getDeviceReport = String.valueOf(superAdmin_URL) + "/FetchReportDevice";
+  
+  public static String downloadDeviceReport = String.valueOf(superAdmin_URL) + "/DeviceReport";
+  
+  public static String getTotalCharger_url = String.valueOf(superAdmin_URL) + "/FetchTotalCharger";
+  
+  public static String getOnlineCharger_url = String.valueOf(superAdmin_URL) + "/FetchOnlineCharger";
+  
+  public static String getOfflineCharger_url = String.valueOf(superAdmin_URL) + "/FetchOfflineCharger";
+  
+  public static String getFaultsCharger_url = String.valueOf(superAdmin_URL) + "/FetchFaultsCharger";
+  
+  public static String getChargerTotalEnergy_url = String.valueOf(superAdmin_URL) + "/FetchChargerTotalEnergy";
+  
+  public static String getTotalUsers_url = String.valueOf(superAdmin_URL) + "/FetchTotalUsers";
+  
+  public static String getTotalChargersSessions_url = String.valueOf(superAdmin_URL) + "/FetchTotalChargersSession";
+  
+  public static String getPaymentRequest_url = String.valueOf(superAdmin_URL) + "/FetchPaymentRequest";
+  
+  public static String updatePaymentRequestStatus_url = String.valueOf(superAdmin_URL) + "/UpdatePaymentRequestStatus";
+  
+  public static String getPaymentNotification_url = String.valueOf(superAdmin_URL) + "/FetchPaymentNotification";
+  
+  public static String markNotificationRead_url = String.valueOf(superAdmin_URL) + "/MarkNotificationRead";
+}

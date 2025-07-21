@@ -1,0 +1,65 @@
+{
+  "Students": [
+    {
+      "id": "1",
+      "name": "John",
+      "location": "India",
+      "phone": "1234567890",
+      "courses": [
+        "Java",
+        "Selenium"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Smith",
+      "location": "USA",
+      "phone": "9874567373",
+      "courses": [
+        "C#",
+        "RESTAPI"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Merry",
+      "location": "Canada",
+      "phone": "90876543213",
+      "courses": [
+        "Appium",
+        "Python"
+      ]
+    },
+    {
+      "id": "720f",
+      "courses": [
+        "C",
+        "C#"
+      ],
+      "phone": "9876543210",
+      "name": "QA",
+      "location": "Karnataka"
+    },
+    {
+      "id": "6974",
+      "courses": [
+        "Java",
+        "Selenium"
+      ],
+      "phone": "1234567890",
+      "name": "John",
+      "location": "India"
+    },
+    {
+      "id": "b96f",
+      "name": "Automation QA",
+      "location": "India",
+      "phone": "9876543210",
+      "courses": [
+        "Java",
+        "Selenium"
+      ]
+    }
+  ]
+
+}

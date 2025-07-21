@@ -1,0 +1,47 @@
+package api.test.SuperAdmin;
+
+import api.endpoints.SuperAdmin.LoginEndPoints;
+import api.utilities.DataProviders;
+import io.restassured.response.Response;
+import io.restassured.response.ValidatableResponse;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class TestLogin {
+  public Logger logger;
+  
+  public String email = "outdidsuperadmin@gmail.com";
+  
+  public int password = 1234;
+  
+  @BeforeClass
+  public void setupData() {
+    this.logger = LogManager.getLogger(getClass());
+  }
+  
+  @Test(priority = 1)
+  public void testLoginValidCredential() {
+    Response res = LoginEndPoints.checkLoginCredintial(this.email, this.password);
+    ((ValidatableResponse)res.then()).log().all();
+    Assert.assertEquals(res.getStatusCode(), 200);
+    String status = res.jsonPath().getString("status");
+    Assert.assertEquals(status, "Success", "Expected status to be 'Success'");
+    this.logger.info("***** Login successful *******");
+  }
+  
+  @Test(priority = 2, dataProvider = "Data", dataProviderClass = DataProviders.class)
+  public void testLoginCredential(String email, int password, String statusCode, String statusOrMessage) {
+    Response res = LoginEndPoints.checkLoginCredintial(email, password);
+    Assert.assertEquals(res.getStatusCode(), Integer.parseInt(statusCode));
+    String actualMessageOrStatus = "";
+    if (res.jsonPath().get("message") != null) {
+      actualMessageOrStatus = res.jsonPath().getString("message");
+    } else if (res.jsonPath().get("status") != null) {
+      actualMessageOrStatus = res.jsonPath().getString("status");
+    } 
+    Assert.assertTrue(actualMessageOrStatus.equalsIgnoreCase(statusOrMessage), "Expected value '" + statusOrMessage + "' but found '" + actualMessageOrStatus + "'");
+  }
+}

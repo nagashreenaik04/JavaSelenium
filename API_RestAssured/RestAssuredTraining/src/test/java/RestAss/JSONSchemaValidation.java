@@ -1,0 +1,24 @@
+package RestAss;
+
+import static io.restassured.RestAssured.*;
+import static io.restassured.matcher.RestAssuredMatchers.*;
+import static org.hamcrest.Matchers.*;
+
+import io.restassured.module.jsv.JsonSchemaValidator;
+
+
+public class JSONSchemaValidation {
+	
+	void testJSONSchem()
+	{
+		given()
+		
+		.when()
+			.get("http://localhost:3000/store")
+		
+		.then()
+			.assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("storeJsonSchema.json"));
+		
+	}
+
+}

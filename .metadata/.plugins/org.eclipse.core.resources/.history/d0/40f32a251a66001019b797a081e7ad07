@@ -1,0 +1,91 @@
+package api.endpoints.AssociationAdmin;
+
+public class AARoutes {
+  public static String associationAdmin_URL = "http://172.235.29.67:3001/associationadmin";
+  
+  public static String login_url = String.valueOf(associationAdmin_URL) + "/CheckLoginCredentials";
+  
+  public static String getTotalCharger_url = String.valueOf(associationAdmin_URL) + "/FetchTotalCharger";
+  
+  public static String getOnlineCharger_url = String.valueOf(associationAdmin_URL) + "/FetchOnlineCharger";
+  
+  public static String getOfflineCharger_url = String.valueOf(associationAdmin_URL) + "/FetchOfflineCharger";
+  
+  public static String getFaultsCharger_url = String.valueOf(associationAdmin_URL) + "/FetchFaultsCharger";
+  
+  public static String getChargerTotalEnergy_url = String.valueOf(associationAdmin_URL) + "/FetchChargerTotalEnergy";
+  
+  public static String getTotalUsers_url = String.valueOf(associationAdmin_URL) + "/FetchTotalUsers";
+  
+  public static String getTotalChargersSessions_url = String.valueOf(associationAdmin_URL) + "/FetchTotalChargersSession";
+  
+  public static String getAllocatedCharger = String.valueOf(associationAdmin_URL) + "/FetchAllocatedChargerByClientToAssociation";
+  
+  public static String updateDevice = String.valueOf(associationAdmin_URL) + "/UpdateDevice";
+  
+  public static String deactivateOrActivateCharger = String.valueOf(associationAdmin_URL) + "/DeActivateOrActivateCharger";
+  
+  public static String assignFinance = String.valueOf(associationAdmin_URL) + "/assignFinance";
+  
+  public static String reAssignFinance = String.valueOf(associationAdmin_URL) + "/reAssignFinance";
+  
+  public static String getFinance_dropdown = String.valueOf(associationAdmin_URL) + "/FetchFinance_dropdown";
+  
+  public static String getUsers = String.valueOf(associationAdmin_URL) + "/FetchUsers";
+  
+  public static String updateUsers = String.valueOf(associationAdmin_URL) + "/UpdateUser";
+  
+  public static String getAllTagID = String.valueOf(associationAdmin_URL) + "/FetchAllTagIDs";
+  
+  public static String createTagID = String.valueOf(associationAdmin_URL) + "/CreateTagID";
+  
+  public static String updateTagID = String.valueOf(associationAdmin_URL) + "/UpdateTagID";
+  
+  public static String deactivateOrActivateTagID = String.valueOf(associationAdmin_URL) + "/DeactivateOrActivateTagID";
+  
+  public static String getAssignedUser = String.valueOf(associationAdmin_URL) + "/FetchUsersWithSpecificRolesToUnAssign";
+  
+  public static String addUserToAssociation = String.valueOf(associationAdmin_URL) + "/AssUserToAssociation";
+  
+  public static String assignTagIdToUser = String.valueOf(associationAdmin_URL) + "/AssignTagIdToUser";
+  
+  public static String getTagIdToAssign = String.valueOf(associationAdmin_URL) + "/FetchTagIdToAssign";
+  
+  public static String removeUserFromAssociation = String.valueOf(associationAdmin_URL) + "/RemoveUserFromAssociation";
+  
+  public static String createFinance = String.valueOf(associationAdmin_URL) + "/createFinance";
+  
+  public static String getFinance = String.valueOf(associationAdmin_URL) + "/fetchFinance";
+  
+  public static String updateFinance = String.valueOf(associationAdmin_URL) + "/updateFinance";
+  
+  public static String getReportDevice = String.valueOf(associationAdmin_URL) + "/FetchReportDevice";
+  
+  public static String getDeviceReport = String.valueOf(associationAdmin_URL) + "/DeviceReport";
+  
+  public static String getSpecificChargerRevenu = String.valueOf(associationAdmin_URL) + "/FetchSpecificChargerRevenue";
+  
+  public static String getChargerListWithAllCostWithRevenue = String.valueOf(associationAdmin_URL) + "/FetchChargerListWithAllCostWithRevenue";
+  
+  public static String getCommissionAmtAssociation = String.valueOf(associationAdmin_URL) + "/FetchCommissionAmtAssociation";
+  
+  public static String saveUserBankDetails = String.valueOf(associationAdmin_URL) + "/saveUserBankDetails";
+  
+  public static String getUserBankDetails = String.valueOf(associationAdmin_URL) + "/fetchUserBankDetails";
+  
+  public static String updateUserBankDetails = String.valueOf(associationAdmin_URL) + "/updateUserBankDetails";
+  
+  public static String applyWithdrawal = String.valueOf(associationAdmin_URL) + "/ApplyWithdrawal";
+  
+  public static String getPaymentRequest = String.valueOf(associationAdmin_URL) + "/FetchPaymentRequest";
+  
+  public static String getPaymentNotification = String.valueOf(associationAdmin_URL) + "/FetchPaymentNotification";
+  
+  public static String markNotificationRead = String.valueOf(associationAdmin_URL) + "/MarkNotificationRead";
+  
+  public static String getUserProfile = String.valueOf(associationAdmin_URL) + "/FetchUserProfile";
+  
+  public static String updateUserProfile = String.valueOf(associationAdmin_URL) + "/UpdateUserProfile";
+  
+  public static String updateAssociationProfile = String.valueOf(associationAdmin_URL) + "/UpdateAssociationProfile";
+}

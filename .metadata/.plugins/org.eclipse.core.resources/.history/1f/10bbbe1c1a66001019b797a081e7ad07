@@ -1,0 +1,83 @@
+package api.endpoints.ClientAdmin;
+
+public class CARoutes {
+  public static String clientAdmin_URL = "http://172.235.29.67:3001/clientadmin";
+  
+  public static String login_url = String.valueOf(clientAdmin_URL) + "/CheckLoginCredentials";
+  
+  public static String getAssociationUser_url = String.valueOf(clientAdmin_URL) + "/FetchAssociationUser";
+  
+  public static String getChargerDetails_url = String.valueOf(clientAdmin_URL) + "/FetchChargerDetailsWithSession";
+  
+  public static String createAssociationUser_url = String.valueOf(clientAdmin_URL) + "/CreateAssociationUser";
+  
+  public static String updateAssociationUser_url = String.valueOf(clientAdmin_URL) + "/UpdateAssociationUser";
+  
+  public static String UpdateClientCommission_url = String.valueOf(clientAdmin_URL) + "/UpdateClientCommission";
+  
+  public static String getUsers_url = String.valueOf(clientAdmin_URL) + "/FetchUsers";
+  
+  public static String getSpecificUserRole = String.valueOf(clientAdmin_URL) + "/FetchSpecificUserRoleForSelection";
+  
+  public static String createUser = String.valueOf(clientAdmin_URL) + "/CreateUser";
+  
+  public static String updateUser = String.valueOf(clientAdmin_URL) + "/UpdateUser";
+  
+  public static String getAssociationForSelection_url = String.valueOf(clientAdmin_URL) + "/FetchAssociationForSelection";
+  
+  public static String getAllocatedCharger = String.valueOf(clientAdmin_URL) + "/FetchAllocatedCharger";
+  
+  public static String getUnallocatedCharger = String.valueOf(clientAdmin_URL) + "/FetchUnAllocatedCharger";
+  
+  public static String deactiveOrActivateCharger = String.valueOf(clientAdmin_URL) + "/DeActivateOrActivateCharger";
+  
+  public static String getAssociationUserToAssignCharger = String.valueOf(clientAdmin_URL) + "/FetchAssociationUserToAssginCharger";
+  
+  public static String getUnallocatedChargerToAssign = String.valueOf(clientAdmin_URL) + "/FetchUnAllocatedChargerToAssgin";
+  
+  public static String assignChargerToAssociation = String.valueOf(clientAdmin_URL) + "/AssginChargerToAssociation";
+  
+  public static String getUserProfile = String.valueOf(clientAdmin_URL) + "/FetchUserProfile";
+  
+  public static String updateUserProfile = String.valueOf(clientAdmin_URL) + "/UpdateUserProfile";
+  
+  public static String updateClientProfile = String.valueOf(clientAdmin_URL) + "/UpdateClientProfile";
+  
+  public static String getTotalCharger_url = String.valueOf(clientAdmin_URL) + "/FetchTotalCharger";
+  
+  public static String getOnlineCharger_url = String.valueOf(clientAdmin_URL) + "/FetchOnlineCharger";
+  
+  public static String getOfflineCharger_url = String.valueOf(clientAdmin_URL) + "/FetchOfflineCharger";
+  
+  public static String getFaultsCharger_url = String.valueOf(clientAdmin_URL) + "/FetchFaultsCharger";
+  
+  public static String getChargerTotalEnergy_url = String.valueOf(clientAdmin_URL) + "/FetchChargerTotalEnergy";
+  
+  public static String getTotalUsers_url = String.valueOf(clientAdmin_URL) + "/FetchTotalUsers";
+  
+  public static String getTotalChargersSessions_url = String.valueOf(clientAdmin_URL) + "/FetchTotalChargersSession";
+  
+  public static String getCommissionAmtClient_URL = String.valueOf(clientAdmin_URL) + "/FetchCommissionAmtClient";
+  
+  public static String saveUserBankDetails_URL = String.valueOf(clientAdmin_URL) + "/saveUserBankDetails";
+  
+  public static String getUserBankDetails_URL = String.valueOf(clientAdmin_URL) + "/fetchUserBankDetails";
+  
+  public static String updateUserBankDetails_URL = String.valueOf(clientAdmin_URL) + "/updateUserBankDetails";
+  
+  public static String applyWithdrawal_URL = String.valueOf(clientAdmin_URL) + "/ApplyWithdrawal";
+  
+  public static String getPaymentRequest_URL = String.valueOf(clientAdmin_URL) + "/FetchPaymentRequest";
+  
+  public static String getPaymentNotification_URL = String.valueOf(clientAdmin_URL) + "/FetchPaymentNotification";
+  
+  public static String markNotificationRead_URL = String.valueOf(clientAdmin_URL) + "/MarkNotificationRead";
+  
+  public static String getDeviceReport_URL = String.valueOf(clientAdmin_URL) + "/FetchReportDevice";
+  
+  public static String downloadDeviceReport_URL = String.valueOf(clientAdmin_URL) + "/DeviceReport";
+  
+  public static String getSpecificChargerRevenue_URL = String.valueOf(clientAdmin_URL) + "/FetchSpecificChargerRevenue";
+  
+  public static String getChargerListWithAllCostWithRevenue_URL = String.valueOf(clientAdmin_URL) + "/FetchChargerListWithAllCostWithRevenue";
+}
