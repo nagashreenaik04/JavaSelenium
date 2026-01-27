@@ -1,0 +1,8 @@
+package day16_DataAbstractionJavaInterface;
+
+public interface I1 {
+	
+	int x=100;
+	void m1(); //abstract method
+
+}
